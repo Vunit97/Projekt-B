@@ -1,0 +1,461 @@
+
+
+
+
+/*-----Slider-----*/
+
+.carousel{
+    box-shadow: 0 15px 15px rgba(0,0,0,0.1);
+}
+
+.carousel-inner{
+    max-height: 690px!important;
+
+}
+.carousel-inner img{
+    width: 100%;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-item.active {
+    transition: transform 1.3s ease;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+}
+
+.bg-custom{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    border-radius: 16px;
+}
+
+.carousel-caption h1{
+    font-size: 42px;
+    text-shadow: 1.6px 1.6px 4.8px rgba(0,0,0,1);
+}
+
+.border-primary{
+    border-top: 3.2px solid #4981b3!important;
+}
+
+.carousel-caption h3{
+    padding-top:10px;
+    font-size: 28px;
+    text-shadow: 1.6px 1.6px 3.2px rgba(0,0,0,1);
+}
+
+.btn-lg{
+
+    font-size: 16px;
+    border-width: medium;
+}
+
+.btn-primary{
+    border: 1.6px solid #4981b3;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: #68a0d2!important;
+    border: 1.6px solid #68a0d2;
+}
+
+/*----About Us-----*/
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555!important;
+}
+
+#about button{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.skills-bar{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+/*------Services-------*/
+
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.services{
+    margin-top:20px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+/*-----jumbotron----*/
+#jumbotron{
+    border-radius: 0;
+}
+
+#jumbotron .container-fluid{
+    padding-top:10px;
+    padding-bottom: 10px
+}
+
+#jumbotron .btn{
+    margin-top: 10px;
+}
+
+/*----Our Work---*/
+#currentwork{
+    margin-bottom:50px;
+}
+#currentwork h1{
+    text-align: center;
+    color: #555!important;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#currentwork h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#currentwork h4{
+    color: #555!important;
+}
+
+#currentwork p{
+    color: #555!important;
+}
+
+#currentwork .btn{
+    margin-bottom: 10px;
+}
+
+.rescale{
+    height: 258px;
+    max-width: 100%;
+
+}
+
+
+/*---Fixed Background----*/
+
+
+
+#fix{
+    background-image: url("../img/matrix.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+#fix h2{
+    text-align: center;
+    color: #efefef !important;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+/*-----Colour Background------*/
+.colour{
+    background-image: linear-gradient(to right, #4981b3, #ac2615);
+}
+
+
+/*----Our Team---*/
+
+#team{
+    padding-bottom: 50px;
+    color: #555!important;
+    padding-top: 20px;
+
+}
+
+#team h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+
+#team h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.profile-pic{
+    margin-top: 25px;
+
+}
+
+.profile-pic img{
+    max-width: 100%;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1);
+
+}
+
+.scale{
+    height: 282px;
+    width: 230px;
+}
+
+.profile-pic .img-box img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.profile-pic h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+
+.profile-pic h4{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#team .fa{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul{
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+
+
+/*---Our Philosophie----*/
+
+.philosophy{
+    color: #555!important;
+}
+
+.philosophy h2{
+    padding-bottom: 15px;
+}
+
+
+.quote img{
+    height: 350px;
+    width: 620px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #c8c8c8;
+}
+
+.quote img{
+    max-width: 100%;
+}
+
+
+
+
+/*----Connect Section----*/
+#connect{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#connect h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 20px;
+}
+
+#connect h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.social a{
+    font-size: 60px;
+    padding: 40px;
+}
+
+.social .fa-facebook{
+    color: #3b5998;
+}
+
+.social .fa-twitter{
+    color: #00aced;
+}
+
+.social .fa-google-plus{
+    color: #dd4b39;
+}
+
+.social .fa-instagram{
+    color: #517fa4;
+}
+
+.social .fa-youtube{
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+/*------Footer-----*/
+
+footer{
+    background-color: #383838;
+    padding: 16px 32px 48px;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5 ;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+footer img{
+    height: 56px;
+
+}
+
+footer p, .socket a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+/*----Socket----*/
+.socket{
+    background-color: #222222;
+    border-top: 1.6px solid #4981b3;
+}
+
+
+/*---Media Queries---*/
+
+/*--Devices under 1199px(xl)--*/
+@media (max-width: 1199.98px) {
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+    .carousel-caption h3{
+        padding-top:10px;
+        font-size: 20px;
+    }
+}
+
+/*--Devices under 992px(md)--*/
+@media (max-width: 991.98px){
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+    .carousel-caption h3{
+        padding-top:10px;
+        font-size: 18px;
+    }
+}
