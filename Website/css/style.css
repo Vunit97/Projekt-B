@@ -1,7 +1,5 @@
 
 
-
-
 /*-----Slider-----*/
 
 .carousel{
@@ -200,8 +198,6 @@
 
 /*---Fixed Background----*/
 
-
-
 #fix{
     background-image: url("../img/matrix.jpg");
     background-attachment: fixed;
@@ -347,8 +343,6 @@
 }
 
 
-
-
 /*----Connect Section----*/
 #connect{
     margin-top: 40px;
@@ -402,6 +396,8 @@
 .fa-youtube:hover {
     color: #d5d5d5;
 }
+
+
 /*------Footer-----*/
 
 footer{
@@ -426,14 +422,22 @@ footer p, .socket a{
 }
 
 
-
-
-
 /*----Socket----*/
 .socket{
     background-color: #222222;
     border-top: 1.6px solid #4981b3;
 }
+
+/*-----Focus----*/
+.focus{
+    color: #555!important;
+}
+
+.focus h2{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
 
 
 /*---Media Queries---*/
